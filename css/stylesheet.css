@@ -61,7 +61,7 @@ body{
 .navbar{
     position: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -77,7 +77,7 @@ body{
     justify-content: center;
     list-style: none;
     margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 15%;
 }
 
 .nav li a {
@@ -100,3 +100,69 @@ a{
 
 }
 /*CSS for Navbar: End*/
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover{
+    width: 200px;
+}
+
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover .icon{
+    background: #0A66C2;
+}
+
+.wrapper .button:nth-child(2):hover .icon{
+    background: #AE378B;
+}
+
+.wrapper .button:nth-child(3):hover .icon{
+    background: #03A7F2;
+}
+
+.wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover span{
+    color: #0A66C2;
+}
+
+.wrapper .button:nth-child(2):hover span{
+    color: #AE378B;
+}
+.wrapper .button:nth-child(3):hover span{
+    color: #03A7F2;
+}
+

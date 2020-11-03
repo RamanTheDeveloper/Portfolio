@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="Created transparent navbar with a logo, created a hero banner and added a background image for homepage">
+    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="Creating socials logos in navbar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604329320366</updated>
       <workItem from="1604329321391" duration="3627000" />
-      <workItem from="1604422890725" duration="3492000" />
+      <workItem from="1604422890725" duration="7437000" />
     </task>
     <task id="LOCAL-00001" summary="Created transparent navbar with a logo, created a hero banner and added a background image for homepage">
       <created>1604425798661</created>
@@ -72,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604425924299</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creating socials logos in navbar">
+      <created>1604426410691</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604426410691</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,7 +88,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created transparent navbar with a logo, created a hero banner and added a background image for homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created transparent navbar with a logo, created a hero banner and added a background image for homepage" />
+    <MESSAGE value="Creating socials logos in navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating socials logos in navbar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1328" y="356" width="264" height="320" key="#File_Watchers" timestamp="1604329904917">
