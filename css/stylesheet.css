@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background-image{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-text{
+    color: #fff;
+    text-align: center;
+}
+
+.hero-text h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.hero-text p{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.hero-btn{
+    text-decoration: none;
+    color: #fff;
+    background: #87CF3E;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.hero-btn:hover{
+    background: white;
+    color: black;
+}
+
+.logo{
+    cursor: pointer;
+    width: 145px;
+    height: 76px;
+    position: absolute;
+    top: 5px;
+    left: 5%;
+}
+
+/*CSS for Navbar: Start*/
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 90px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.nav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav li a:hover {
+    color: white;
+    background-color: #87CF3E;
+    border-radius: 50px;
+    padding: 9px 25px;
+}
+
+
+a{
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+/*CSS for Navbar: End*/
