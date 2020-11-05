@@ -166,3 +166,41 @@ a{
     color: #03A7F2;
 }
 
+/*About me*/
+.about-me-container{
+    padding: 30px 30px;
+}
+
+.box{
+    width: 450px;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+}
+
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.box p{
+    text-align: justify;
+}
