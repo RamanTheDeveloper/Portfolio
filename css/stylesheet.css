@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -57,6 +61,7 @@ body{
     left: 5%;
 }
 
+
 /*CSS for Navbar: Start*/
 .navbar{
     position: fixed;
@@ -101,6 +106,7 @@ a{
 }
 /*CSS for Navbar: End*/
 
+
 .wrapper .button{
     display: inline-block;
     height: 60px;
@@ -111,7 +117,7 @@ a{
     background: #ffffff;
     border-radius: 50px;
     cursor: pointer;
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease-out;
 }
 
@@ -166,6 +172,7 @@ a{
     color: #03A7F2;
 }
 
+
 /*About me*/
 .about-me-container{
     padding: 30px 30px;
@@ -176,8 +183,7 @@ a{
     background: rgba(0,0,0,0.4);
     padding: 40px;
     text-align: center;
-    margin: auto;
-    margin-top: 5%;
+    margin: 5% auto auto;
     color: white;
 }
 
@@ -203,4 +209,178 @@ a{
 
 .box p{
     text-align: justify;
+}
+
+
+/*CSS for skills section*/
+.skills-container{
+    width: auto;
+    height: auto;
+    padding: 30px 30px;
+    background: #90ee90;
+}
+
+.skillset{
+    width: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+}
+
+.front-end{
+    width: 350px;
+    height: 461px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.front-end i{
+    font-size: 30px;
+}
+
+.front-end h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.front-end p{
+    text-align: left;
+}
+
+.front-end h3{
+    text-align: left;
+}
+
+.front-end ul{
+    text-align: left;
+}
+
+.front-end ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5px 10px;
+}
+
+.back-end{
+    width: 350px;
+    height: 461px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.back-end i{
+    font-size: 30px;
+    color: black;
+}
+
+.back-end h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.back-end p{
+    text-align: left;
+}
+
+.back-end h3{
+    text-align: left;
+}
+
+.back-end ul{
+    text-align: left;
+}
+
+.back-end ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5px 10px;
+}
+
+.mobile{
+    width: 350px;
+    height: 461px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mobile i{
+    font-size: 30px;
+    color: black;
+}
+
+.mobile h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.mobile p{
+    text-align: left;
+}
+
+.mobile h3{
+    text-align: left;
+}
+
+.mobile ul{
+    text-align: left;
+}
+
+.mobile ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5px 10px;
+}
+
+.other{
+    width: 350px;
+    height: 461px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.other i{
+    font-size: 30px;
+    color: black;
+}
+
+.other h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.other p{
+    text-align: left;
+}
+
+.other h3{
+    text-align: left;
+}
+
+.other ul{
+    text-align: left;
+}
+
+.other ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5px 10px;
 }

@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="commit after resolving merge issues">
+    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="when logo clicked it will take you to the top of the page, navbar goes solid upon scroll">
+      <change beforePath="$PROJECT_DIR$/.idea/Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/background.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -76,6 +78,7 @@
       <updated>1604329320366</updated>
       <workItem from="1604329321391" duration="3627000" />
       <workItem from="1604422890725" duration="7437000" />
+      <workItem from="1604698303424" duration="10142000" />
     </task>
     <task id="LOCAL-00001" summary="Created transparent navbar with a logo, created a hero banner and added a background image for homepage">
       <created>1604425798661</created>
@@ -105,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604614005877</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="when logo clicked it will take you to the top of the page, navbar goes solid upon scroll">
+      <created>1604615112284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604615112284</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,13 +137,18 @@
     <MESSAGE value="Created transparent navbar with a logo, created a hero banner and added a background image for homepage" />
     <MESSAGE value="Creating socials logos in navbar" />
     <MESSAGE value="commit after resolving merge issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit after resolving merge issues" />
+    <MESSAGE value="when logo clicked it will take you to the top of the page, navbar goes solid upon scroll" />
+    <option name="LAST_COMMIT_MESSAGE" value="when logo clicked it will take you to the top of the page, navbar goes solid upon scroll" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1328" y="356" width="264" height="320" key="#File_Watchers" timestamp="1604329904917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1328" y="356" width="264" height="320" key="#File_Watchers/0.0.1920.1040@0.0.1920.1040" timestamp="1604329904917" />
+    <state x="1229" y="312" width="423" height="409" key="#Web_Browsers" timestamp="1604699588682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1229" y="312" width="423" height="409" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1604699588682" />
     <state x="1168" y="270" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604329818960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -142,22 +157,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1092" y="301" width="676" height="431" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604329844459" />
-    <state x="1223" y="277" width="424" height="478" key="FileChooserDialogImpl" timestamp="1604422951983">
+    <state x="1223" y="277" width="424" height="478" key="FileChooserDialogImpl" timestamp="1604699577427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1223" y="277" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604422951983" />
-    <state x="928" y="155" key="SettingsEditor" timestamp="1604425602826">
+    <state x="1223" y="277" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604699577427" />
+    <state x="928" y="155" key="SettingsEditor" timestamp="1604698620058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="928" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604425602826" />
-    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1604614023925">
+    <state x="928" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604698620058" />
+    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1604615116616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604614023925" />
-    <state x="1249" y="436" width="373" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604426382031">
+    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604615116616" />
+    <state x="1249" y="436" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604708628935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1249" y="436" width="373" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604426382031" />
+    <state x="1249" y="436" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604708628935" />
     <state x="0" y="0" width="959" height="1039" key="dock-window-1" timestamp="1604423215367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
