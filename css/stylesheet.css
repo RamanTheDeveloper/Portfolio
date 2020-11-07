@@ -175,7 +175,12 @@ a{
 
 /*About me*/
 .about-me-container{
-    padding: 30px 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
 }
 
 .box{
@@ -183,8 +188,10 @@ a{
     background: rgba(0,0,0,0.4);
     padding: 40px;
     text-align: center;
-    margin: 5% auto auto;
+    margin: 20px auto auto auto;
     color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0b0b0b;
 }
 
 .box-img{
@@ -228,11 +235,12 @@ a{
     align-items: center;
     display: flex;
     font-size: 16px;
+    overflow: hidden;
 }
 
 .front-end{
     width: 350px;
-    height: 461px;
+    height: 661px;
     padding: 10px 10px;
     margin-top: 10px;
     margin-left: 5px;
@@ -270,7 +278,7 @@ a{
 
 .back-end{
     width: 350px;
-    height: 461px;
+    height: 661px;
     padding: 10px 10px;
     margin-top: 10px;
     margin-left: 5px;
@@ -309,7 +317,7 @@ a{
 
 .mobile{
     width: 350px;
-    height: 461px;
+    height: 661px;
     padding: 10px 10px;
     margin-top: 10px;
     margin-left: 5px;
@@ -348,7 +356,7 @@ a{
 
 .other{
     width: 350px;
-    height: 461px;
+    height: 661px;
     padding: 10px 10px;
     margin-top: 10px;
     margin-left: 5px;
@@ -384,3 +392,289 @@ a{
     display: inline-block;
     margin: 0 5px 10px;
 }
+
+/*CSS for progress bar in skills section*/
+.bar{
+    background: #a7a7a7;
+    display: block;
+    height: 3px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #0b0b0b;
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: #fdfffd;
+}
+
+.html-bar{
+    width: 90%;
+    animation: html-bar 2s;
+}
+
+@keyframes html-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.css-bar{
+    width: 90%;
+    animation: css-bar 2s;
+}
+
+@keyframes css-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.js-bar{
+    width: 80%;
+    animation: js-bar 2s;
+}
+
+@keyframes js-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+.angular-bar{
+    width: 70%;
+    animation: angular-bar 2s;
+}
+
+@keyframes angular-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.react-bar{
+    width: 70%;
+    animation: react-bar 2s;
+}
+
+@keyframes react-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.node-bar{
+    width: 60%;
+    animation: node-bar 2s;
+}
+
+@keyframes node-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+.java-bar{
+    width: 95%;
+    animation: java-bar 2s;
+}
+
+@keyframes java-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+
+.python-bar{
+    width: 90%;
+    animation: python-bar 2s;
+}
+
+@keyframes python-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.php-bar{
+    width: 75%;
+    animation: php-bar 2s;
+}
+
+@keyframes php-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+.c-bar{
+    width: 70%;
+    animation: c-bar 2s;
+}
+
+@keyframes c-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.c-sharp-bar{
+    width: 50%;
+    animation: c-sharp-bar 2s;
+}
+
+@keyframes c-sharp-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+.net-bar{
+    width: 50%;
+    animation: net-bar 2s;
+}
+
+@keyframes net-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+.kotlin-bar{
+    width: 55%;
+    animation: kotlin-bar 2s;
+}
+
+@keyframes kotlin-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 55%;
+    }
+}
+
+.obj-c-bar{
+    width: 40%;
+    animation: obj-c-bar 2s;
+}
+
+@keyframes obj-c-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+.terminal-bar{
+    width: 80%;
+    animation: terminal-bar 2s;
+}
+
+@keyframes terminal-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+.ssh-bar{
+    width: 70%;
+    animation: ssh-bar 2s;
+}
+
+@keyframes ssh-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.git-bar{
+    width: 90%;
+    animation: git-bar 2s;
+}
+
+@keyframes git-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.github-bar{
+    width: 90%;
+    animation: github-bar 2s;
+}
+
+@keyframes github-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.sql-bar{
+    width: 75%;
+    animation: sql-bar 2s;
+}
+
+@keyframes sql-bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+
+
