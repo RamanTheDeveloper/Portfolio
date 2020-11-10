@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="Worked on Projects section&#10;Fixed links to section from navbar.&#10;Centered and aligned Project section">
+    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="Worked on Projects section&#10;Buttons work with their corresponding links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +79,7 @@
       <workItem from="1604698303424" duration="10142000" />
       <workItem from="1604785195710" duration="3871000" />
       <workItem from="1605023853881" duration="12726000" />
-      <workItem from="1605043108614" duration="171000" />
+      <workItem from="1605043108614" duration="783000" />
     </task>
     <task id="LOCAL-00001" summary="Created transparent navbar with a logo, created a hero banner and added a background image for homepage">
       <created>1604425798661</created>
@@ -129,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605042459362</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Worked on Projects section&#10;Buttons work with their corresponding links">
+      <created>1605043466648</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605043466648</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +163,8 @@
     <MESSAGE value="Worked on skills section.&#10;Added progress bars to programming languages in skills section with animation.&#10;Fixed about me box." />
     <MESSAGE value="Worked on Projects section&gt;&#10;Added 4 projects including a picture, header, description and buttons to view the source code on Github. Links are not working yet for the buttons." />
     <MESSAGE value="Worked on Projects section&#10;Fixed links to section from navbar.&#10;Centered and aligned Project section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Worked on Projects section&#10;Fixed links to section from navbar.&#10;Centered and aligned Project section" />
+    <MESSAGE value="Worked on Projects section&#10;Buttons work with their corresponding links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked on Projects section&#10;Buttons work with their corresponding links" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1328" y="356" width="264" height="320" key="#File_Watchers" timestamp="1604329904917">
@@ -182,10 +191,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="928" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604698620058" />
-    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1605042469774">
+    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1605043472895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605042469774" />
+    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605043472895" />
     <state x="1249" y="436" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604785200699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
