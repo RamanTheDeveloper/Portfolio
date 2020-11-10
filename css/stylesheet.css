@@ -677,4 +677,74 @@ a{
 }
 
 
+/*CSS for Projects section*/
+.projects-container{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects{
+    width: 50%;
+    padding: 30px;
+    margin: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 10px;
+}
+
+.project-img{
+    width: auto;
+    display: flex;
+    padding: 10px;
+}
+
+.project-img img{
+    width: 400px;
+    height: 230px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.project-main{
+    float: left;
+}
+
+.project-main h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.project-main p{
+    margin-bottom: 30px;
+}
+
+.project-main a{
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.project-main a:hover {
+    color: white;
+    background-color: #87CF3E;
+    border: none;
+}
+
+.project-main a {
+    transition: all 0.3s ease 0s;
+}
+
+
+
 
