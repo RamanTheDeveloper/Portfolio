@@ -74,7 +74,6 @@ body{
     width: 100%;
     height: 90px;
     z-index: 1;
-    cursor: pointer;
 }
 
 .nav{
@@ -102,6 +101,7 @@ a{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    cursor: pointer;
 
 }
 /*CSS for Navbar: End*/
@@ -183,6 +183,18 @@ a{
     align-items: center;
 }
 
+.about-me-container h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    position: relative;
+}
+
+.about-me-container h1 span{
+    position: absolute;
+    top: -110px;
+}
+
 .box{
     width: 450px;
     background: rgba(0,0,0,0.4);
@@ -224,7 +236,20 @@ a{
     width: auto;
     height: auto;
     padding: 30px 30px;
+    text-align: center;
     background: #90ee90;
+}
+
+.skills-container h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    position: relative;
+}
+
+.skills-container h1 span{
+    position: absolute;
+    top: -110px;
 }
 
 .skillset{
@@ -682,7 +707,21 @@ a{
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
+
+.projects-container h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    position: relative;
+}
+
+.projects-container h1 span{
+    position: absolute;
+    top: -110px;
+}
+
 
 .projects{
     width: 50%;
@@ -733,16 +772,14 @@ a{
     color: black;
     border: 2px solid black;
     border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
 
 .project-main a:hover {
     color: white;
     background-color: #87CF3E;
     border: none;
-}
-
-.project-main a {
-    transition: all 0.3s ease 0s;
 }
 
 

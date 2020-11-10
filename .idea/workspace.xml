@@ -19,14 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="Worked on skills section.&#10;Added progress bars to programming languages in skills section with animation.&#10;Fixed about me box.">
-      <change afterPath="$PROJECT_DIR$/images/jasminewedskuljeet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mixormatch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pokedex.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/rockpaperscissors.png" afterDir="false" />
+    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="Worked on Projects section&gt;&#10;Added 4 projects including a picture, header, description and buttons to view the source code on Github. Links are not working yet for the buttons.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
       <workItem from="1604422890725" duration="7437000" />
       <workItem from="1604698303424" duration="10142000" />
       <workItem from="1604785195710" duration="3871000" />
-      <workItem from="1605023853881" duration="8990000" />
+      <workItem from="1605023853881" duration="12225000" />
     </task>
     <task id="LOCAL-00001" summary="Created transparent navbar with a logo, created a hero banner and added a background image for homepage">
       <created>1604425798661</created>
@@ -119,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604615112284</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Worked on Projects section&gt;&#10;Added 4 projects including a picture, header, description and buttons to view the source code on Github. Links are not working yet for the buttons.">
+      <created>1605033567795</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605033567795</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +147,8 @@
     <MESSAGE value="commit after resolving merge issues" />
     <MESSAGE value="when logo clicked it will take you to the top of the page, navbar goes solid upon scroll" />
     <MESSAGE value="Worked on skills section.&#10;Added progress bars to programming languages in skills section with animation.&#10;Fixed about me box." />
-    <option name="LAST_COMMIT_MESSAGE" value="Worked on skills section.&#10;Added progress bars to programming languages in skills section with animation.&#10;Fixed about me box." />
+    <MESSAGE value="Worked on Projects section&gt;&#10;Added 4 projects including a picture, header, description and buttons to view the source code on Github. Links are not working yet for the buttons." />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked on Projects section&gt;&#10;Added 4 projects including a picture, header, description and buttons to view the source code on Github. Links are not working yet for the buttons." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1328" y="356" width="264" height="320" key="#File_Watchers" timestamp="1604329904917">
