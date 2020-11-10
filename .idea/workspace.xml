@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="Worked on Projects section&gt;&#10;Added 4 projects including a picture, header, description and buttons to view the source code on Github. Links are not working yet for the buttons.">
+    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="Worked on Projects section&#10;Fixed links to section from navbar.&#10;Centered and aligned Project section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -79,7 +77,8 @@
       <workItem from="1604422890725" duration="7437000" />
       <workItem from="1604698303424" duration="10142000" />
       <workItem from="1604785195710" duration="3871000" />
-      <workItem from="1605023853881" duration="12225000" />
+      <workItem from="1605023853881" duration="12726000" />
+      <workItem from="1605043108614" duration="171000" />
     </task>
     <task id="LOCAL-00001" summary="Created transparent navbar with a logo, created a hero banner and added a background image for homepage">
       <created>1604425798661</created>
@@ -123,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605033567795</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Worked on Projects section&#10;Fixed links to section from navbar.&#10;Centered and aligned Project section">
+      <created>1605042459362</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605042459362</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +154,8 @@
     <MESSAGE value="when logo clicked it will take you to the top of the page, navbar goes solid upon scroll" />
     <MESSAGE value="Worked on skills section.&#10;Added progress bars to programming languages in skills section with animation.&#10;Fixed about me box." />
     <MESSAGE value="Worked on Projects section&gt;&#10;Added 4 projects including a picture, header, description and buttons to view the source code on Github. Links are not working yet for the buttons." />
-    <option name="LAST_COMMIT_MESSAGE" value="Worked on Projects section&gt;&#10;Added 4 projects including a picture, header, description and buttons to view the source code on Github. Links are not working yet for the buttons." />
+    <MESSAGE value="Worked on Projects section&#10;Fixed links to section from navbar.&#10;Centered and aligned Project section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked on Projects section&#10;Fixed links to section from navbar.&#10;Centered and aligned Project section" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1328" y="356" width="264" height="320" key="#File_Watchers" timestamp="1604329904917">
@@ -167,18 +174,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1092" y="301" width="676" height="431" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604329844459" />
-    <state x="1223" y="277" width="424" height="478" key="FileChooserDialogImpl" timestamp="1605032908917">
+    <state x="1223" y="277" width="424" height="478" key="FileChooserDialogImpl" timestamp="1605042859522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1223" y="277" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605032908917" />
+    <state x="1223" y="277" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605042859522" />
     <state x="928" y="155" key="SettingsEditor" timestamp="1604698620058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="928" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604698620058" />
-    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1604789617427">
+    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1605042469774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604789617427" />
+    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605042469774" />
     <state x="1249" y="436" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604785200699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
