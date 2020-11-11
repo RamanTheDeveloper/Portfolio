@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="Fixed the overlapping buttons in Projects section">
-      <change afterPath="$PROJECT_DIR$/images/logo5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo5trans.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo8.png" afterDir="false" />
+    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="Changed logo, added transparency as well">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -41,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="projects" />
+        <entry key="$PROJECT_DIR$" value="work-with-me" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,7 +80,7 @@
       <workItem from="1605023853881" duration="12726000" />
       <workItem from="1605043108614" duration="783000" />
       <workItem from="1605110362172" duration="5000" />
-      <workItem from="1605110601283" duration="2285000" />
+      <workItem from="1605110601283" duration="3596000" />
     </task>
     <task id="LOCAL-00001" summary="Created transparent navbar with a logo, created a hero banner and added a background image for homepage">
       <created>1604425798661</created>
@@ -148,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605112116117</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Changed logo, added transparency as well">
+      <created>1605113000365</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605113000365</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +180,8 @@
     <MESSAGE value="Worked on Projects section&#10;Fixed links to section from navbar.&#10;Centered and aligned Project section" />
     <MESSAGE value="Worked on Projects section&#10;Buttons work with their corresponding links" />
     <MESSAGE value="Fixed the overlapping buttons in Projects section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the overlapping buttons in Projects section" />
+    <MESSAGE value="Changed logo, added transparency as well" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed logo, added transparency as well" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1328" y="356" width="264" height="320" key="#File_Watchers" timestamp="1604329904917">
@@ -187,10 +192,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1229" y="312" width="423" height="409" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1604699588682" />
-    <state x="1168" y="270" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604329818960">
+    <state x="1168" y="270" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605112967532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1168" y="270" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604329818960" />
+    <state x="1168" y="270" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605112967532" />
     <state x="1092" y="301" width="676" height="431" key="EditFileWatcherDialog" timestamp="1604329844459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -203,10 +208,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="928" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604698620058" />
-    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1605112120884">
+    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1605113009503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605112120884" />
+    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605113009503" />
     <state x="1249" y="436" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604785200699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
