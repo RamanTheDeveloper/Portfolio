@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="Worked on social buttons in navbar.&#10;Made Linkedin and Github icon work, opens to corresponding links">
+    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="Fixed the overlapping buttons in Projects section">
+      <change afterPath="$PROJECT_DIR$/images/logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo5trans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -80,7 +83,7 @@
       <workItem from="1605023853881" duration="12726000" />
       <workItem from="1605043108614" duration="783000" />
       <workItem from="1605110362172" duration="5000" />
-      <workItem from="1605110601283" duration="1494000" />
+      <workItem from="1605110601283" duration="2285000" />
     </task>
     <task id="LOCAL-00001" summary="Created transparent navbar with a logo, created a hero banner and added a background image for homepage">
       <created>1604425798661</created>
@@ -138,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605043466648</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixed the overlapping buttons in Projects section">
+      <created>1605112116117</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605112116117</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +175,8 @@
     <MESSAGE value="Worked on Projects section&gt;&#10;Added 4 projects including a picture, header, description and buttons to view the source code on Github. Links are not working yet for the buttons." />
     <MESSAGE value="Worked on Projects section&#10;Fixed links to section from navbar.&#10;Centered and aligned Project section" />
     <MESSAGE value="Worked on Projects section&#10;Buttons work with their corresponding links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Worked on Projects section&#10;Buttons work with their corresponding links" />
+    <MESSAGE value="Fixed the overlapping buttons in Projects section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the overlapping buttons in Projects section" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1328" y="356" width="264" height="320" key="#File_Watchers" timestamp="1604329904917">
@@ -192,10 +203,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="928" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604698620058" />
-    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1605043962921">
+    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1605112120884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605043962921" />
+    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605112120884" />
     <state x="1249" y="436" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604785200699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
