@@ -705,8 +705,6 @@ a{
 /*CSS for Projects section*/
 .projects-container{
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -724,19 +722,19 @@ a{
 
 
 .projects{
-    width: 50%;
-    padding: 30px;
-    margin: auto;
+    width: 100%;
+    padding: 30px 0 30px 0;
     display: block;
     align-items: center;
     justify-content: center;
 }
 
 .project-box{
-    width: 100%;
+    width: 70%;
     height: auto;
     display: flex;
     padding: 10px;
+    margin: auto;
 }
 
 .project-img{
@@ -764,16 +762,18 @@ a{
 
 .project-main p{
     margin-bottom: 30px;
+    text-align: left;
 }
 
 .project-main a{
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
     color: black;
     border: 2px solid black;
     border-radius: 20px;
     text-decoration: none;
     transition: all 0.3s ease 0s;
+    display: inline-flex;
 }
 
 .project-main a:hover {
