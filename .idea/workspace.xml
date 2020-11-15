@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="Cleaned up code">
+    <list default="true" id="5f2d4690-9ccf-4a0f-9492-bd1377f070f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contactform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,23 +39,26 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="contactform" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jjtRVnU5t3wTFKejYDip6toP6p" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Projects/wedding/online website wedding/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -81,6 +86,7 @@
       <workItem from="1605110362172" duration="5000" />
       <workItem from="1605110601283" duration="3736000" />
       <workItem from="1605193877520" duration="5384000" />
+      <workItem from="1605448225376" duration="2344000" />
     </task>
     <task id="LOCAL-00001" summary="Created transparent navbar with a logo, created a hero banner and added a background image for homepage">
       <created>1604425798661</created>
@@ -165,6 +171,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -178,6 +187,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Created transparent navbar with a logo, created a hero banner and added a background image for homepage" />
     <MESSAGE value="Creating socials logos in navbar" />
     <MESSAGE value="commit after resolving merge issues" />
@@ -208,25 +218,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1092" y="301" width="676" height="431" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604329844459" />
-    <state x="1223" y="277" width="424" height="478" key="FileChooserDialogImpl" timestamp="1605042859522">
+    <state x="1223" y="277" width="424" height="478" key="FileChooserDialogImpl" timestamp="1605448525395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1223" y="277" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605042859522" />
+    <state x="1223" y="277" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605448525395" />
     <state x="928" y="155" key="SettingsEditor" timestamp="1604698620058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="928" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604698620058" />
-    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1605133831910">
+    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1605217103793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605133831910" />
+    <state x="1035" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605217103793" />
     <state x="1249" y="436" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604785200699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1249" y="436" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604785200699" />
-    <state x="0" y="0" width="959" height="1039" key="dock-window-1" timestamp="1604423215367">
+    <state x="0" y="0" width="959" height="1039" key="dock-window-1" timestamp="1605448681388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="959" height="1039" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1604423215367" />
+    <state x="0" y="0" width="959" height="1039" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1605448681388" />
   </component>
 </project>

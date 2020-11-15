@@ -25,11 +25,11 @@
         <div class="wrapper">
             <div class="button">
                 <div class="icon"><i class="fab fa-linkedin"></i></div>
-                <a href="https://www.linkedin.com/in/ramandeep-singh-536154161/">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/ramandeep-singh-536154161/" target="_blank">LinkedIn</a>
             </div>
             <div class="button">
                 <div class="icon"><i class="fab fa-github"></i></div>
-                <a href="https://github.com/RamanTheDeveloper">Github</a>
+                <a href="https://github.com/RamanTheDeveloper" target="_blank">Github</a>
             </div>
             <div class="button">
                 <div class="icon"><i class="fas fa-envelope"></i></div>
@@ -190,7 +190,7 @@
     <div class="contactform-container">
         <h1><span id="contact-form"></span></h1>
         <span class="big-circle"></span>
-        <img src="img/shape.png" class="square" alt="" />
+        <img class="square" alt="Square" src=""/>
         <div class="form">
             <div class="contact-info">
                 <h3 class="title">Let's get in touch</h3>
@@ -224,29 +224,29 @@
                 <span class="circle one"></span>
                 <span class="circle two"></span>
 
-                <form action="index.html" autocomplete="off">
+                <form action="contactform.php"  method="POST">
                     <h3 class="title">Contact us</h3>
                     <div class="input-container">
-                        <input type="text" name="name" class="input" />
+                        <input type="text" name="name" value="" class="input" required/>
                         <label>Full Name</label>
                         <span>Full name</span>
                     </div>
                     <div class="input-container">
-                        <input type="email" name="email" class="input" />
+                        <input type="email" name="email" value="" class="input" required/>
                         <label>Email</label>
                         <span>Email</span>
                     </div>
                     <div class="input-container">
-                        <input type="tel" name="phone" class="input" />
-                        <label>Phone</label>
-                        <span>Phone</span>
+                        <input type="text" name="subject" value="" class="input" required/>
+                        <label>Subject</label>
+                        <span>Subject</span>
                     </div>
                     <div class="input-container textarea">
-                        <textarea name="message" class="input"></textarea>
+                        <textarea name="message" class="input" required></textarea>
                         <label>Message</label>
                         <span>Message</span>
                     </div>
-                    <input type="submit" value="Send" class="btn" />
+                    <input type="submit" name="submit" value="Send" class="btn" />
                 </form>
             </div>
         </div>
