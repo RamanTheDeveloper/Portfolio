@@ -175,12 +175,11 @@ a{
 
 /*About me*/
 .about-me-container{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     align-items: center;
+    background-color: #aaf0d1;
 }
 
 .about-me-container h1{
@@ -237,7 +236,7 @@ a{
     height: auto;
     padding: 30px 30px;
     text-align: center;
-    background: #90ee90;
+    background: #7fffd4;
 }
 
 .skills-container h1{
@@ -420,7 +419,7 @@ a{
 
 /*CSS for progress bar in skills section*/
 .bar{
-    background: #a7a7a7;
+    background: #bbbfca;
     display: block;
     height: 3px;
     border: 1px solid rgba(0,0,0,0.3);
@@ -706,6 +705,7 @@ a{
 .projects-container{
     width: 100%;
     text-align: center;
+    background-color: #40e0d0;
 }
 
 .projects-container h1{
@@ -713,11 +713,14 @@ a{
     text-transform: uppercase;
     text-decoration: underline;
     position: relative;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    margin: 0;
 }
 
 .projects-container h1 span{
     position: absolute;
-    top: -110px;
+    top: -90px;
 }
 
 
@@ -789,7 +792,7 @@ a{
     width: 100%;
     min-height: 100vh;
     padding: 2rem 0 2rem 0;
-    background-color: #fafafa;
+    background-color: #fff;
     overflow: hidden;
     display: flex;
     align-items: center;
