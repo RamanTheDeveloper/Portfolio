@@ -32,20 +32,13 @@ inputs.forEach((input) => {
 });
 
 
-//Send email via form
-function sendMail(){
-    var name = document.getElementsByName("name").value;
-    var email = document.getElementsByName("email").value;
-    var subject = document.getElementsByName("subject").value;
-    var bodymessage = document.getElementsByName("message").value;
-
+//Send form email
+function sendEmail(){
     Email.send({
-        SecureToken: "256f5f0f-de53-4c69-932d-adb3688b8a78",
-        To: "ramandeep-singh25@outlook.com",
-        From: email,
-        Subject: subject,
-        Body: name+"\n\n"+bodymessage
+        SecureToken : "3d226189-d5b8-4c05-aa22-211fc79f4e27",
+        To : 'ramandeep-singh25@outlook.com',
+        Subject : "Work with me"
     }).then(
-        message => alert("Mail sent succesfully!")
+      message => alert(message)
     );
 }
