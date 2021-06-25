@@ -36,8 +36,7 @@ inputs.forEach((input) => {
 function sendEmail(){
     Email.send({
         SecureToken : "3d226189-d5b8-4c05-aa22-211fc79f4e27",
-        To : 'ramandeep-singh25@outlook.com',
-        Subject : "Work with me"
+        To : 'ramandeep-singh25@outlook.com'
     }).then(
       message => alert(message)
     );

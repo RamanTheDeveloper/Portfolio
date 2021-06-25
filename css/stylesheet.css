@@ -1,12 +1,13 @@
 html{
     scroll-behavior: smooth;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
 }
 
 .background-image{
@@ -111,31 +112,40 @@ a{
 .menu-toggle{
     color: #fff;
     float: right;
-    line-height: 50px;
-    font-size: 24px;
+    line-height: 80px;
+    font-size: 30px;
+    margin-right: 40px;
     cursor: pointer;
     display: none;
 }
 
 @media (max-width:1035px){
-    header{
-        padding: 0 20px;
+    .logo{
+        width: 105px;
+        height: 36px;
     }
-    .menu-toggle{
+
+    .nav{
+        margin-right: 20px;
+    }
+
+    .nav a{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 909px){
+    .logo{
         display: block;
     }
-    header .nav{
-        /*display: none;*/
-        position: absolute;
+
+    .nav ul{
+        position: fixed;
         width: 100%;
-        height: 100%;
-        background: #333;
-        top: 50px;
-        left: 0;
-        transition: 0.5s;
-    }
-    header .nav ul{
-        display: block;
+        height: 100vh;
+        background: #555;
+        top: 80px;
+        text-align: center;
     }
 }
 /*Menu hamburger: End*/
@@ -213,7 +223,6 @@ a{
     padding-bottom: 30px;
     text-align: center;
     align-items: center;
-    background-color: #aaf0d1;
 }
 
 .about-me-container h1{
@@ -270,7 +279,6 @@ a{
     height: auto;
     padding: 30px 30px;
     text-align: center;
-    background: #7fffd4;
 }
 
 .skills-container h1{
@@ -287,6 +295,7 @@ a{
 
 .skillset{
     width: auto;
+    height: auto;
     margin-top: 5%;
     margin-bottom: 5%;
     justify-content: center;
@@ -336,7 +345,7 @@ a{
 
 .back-end{
     width: 350px;
-    height: 661px;
+    min-height: auto;
     padding: 10px 10px;
     margin-top: 10px;
     margin-left: 5px;
@@ -463,9 +472,9 @@ a{
 }
 
 .bar span{
-    height: 2px;
+    height: 3px;
     float: left;
-    background: #fdfffd;
+    background: #7af300;
 }
 
 .html-bar{
@@ -739,7 +748,6 @@ a{
 .projects-container{
     width: 100%;
     text-align: center;
-    background-color: #40e0d0;
 }
 
 .projects-container h1{
@@ -826,7 +834,6 @@ a{
     width: 100%;
     min-height: 100vh;
     padding: 2rem 0 2rem 0;
-    background-color: #fff;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -846,7 +853,7 @@ a{
 }
 
 .contact-form {
-    background-color: #1abc9c;
+    background-color: #87CF3E;
     position: relative;
 }
 
@@ -875,7 +882,7 @@ a{
     position: absolute;
     width: 26px;
     height: 26px;
-    background-color: #1abc9c;
+    background-color: #87CF3E;
     transform: rotate(45deg);
     top: 50px;
     left: -13px;
@@ -1013,7 +1020,7 @@ textarea.input {
 }
 
 .contact-info .title {
-    color: #1abc9c;
+    color: #87CF3E;
 }
 
 .text {
@@ -1051,7 +1058,7 @@ textarea.input {
     width: 35px;
     height: 35px;
     border-radius: 5px;
-    background: linear-gradient(45deg, #1abc9c, #149279);
+    background: linear-gradient(45deg, #94cf59, #76c22b);
     color: #fff;
     text-align: center;
     line-height: 35px;
@@ -1068,7 +1075,7 @@ textarea.input {
     position: absolute;
     width: 110px;
     height: 100px;
-    border: 22px solid #1abc9c;
+    border: 22px solid #87CF3E;
     border-radius: 50%;
     bottom: -77px;
     right: 50px;
@@ -1080,7 +1087,7 @@ textarea.input {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, #1cd4af, #159b80);
+    background: linear-gradient(to bottom, #a7e06d, #66a726);
     bottom: 50%;
     right: 50%;
     transform: translate(-40%, 38%);
