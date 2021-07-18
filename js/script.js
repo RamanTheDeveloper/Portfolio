@@ -41,3 +41,16 @@ function sendEmail(){
       message => alert(message)
     );
 }
+
+
+
+//Hamburger menu in navbar
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
