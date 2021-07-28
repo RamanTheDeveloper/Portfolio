@@ -32,17 +32,6 @@ inputs.forEach((input) => {
 });
 
 
-//Send form email
-function sendEmail(){
-    Email.send({
-        SecureToken : "3d226189-d5b8-4c05-aa22-211fc79f4e27",
-        To : 'ramandeep-singh25@outlook.com'
-    }).then(
-      message => alert(message)
-    );
-}
-
-
 
 //Hamburger menu in navbar
 const hamburger = document.querySelector(".hamburger");
